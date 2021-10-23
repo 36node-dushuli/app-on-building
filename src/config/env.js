@@ -37,7 +37,6 @@ export const VERSION = env("VERSION", "0.0");
 export const BUILD = env("BUILD", "20210712-000000");
 export const COPYRIGHT = env("COPYRIGHT", "36node 出品");
 export const BEIAN = env("BEIAN", "京ICP备09053658号 ");
-export const XUKEZHENG = env("XUKEZHENG", "经营许可证编号:京ICP证080192号");
 
 /**
  * app

@@ -1,4 +1,4 @@
-import { COPYRIGHT, BEIAN, TITLE, XUKEZHENG } from "./config";
+import { COPYRIGHT, BEIAN, TITLE } from "./config";
 import './App.css';
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
               >
                 {BEIAN}
               </a>
-               {XUKEZHENG}
             </div>
       </header>
     </div>
