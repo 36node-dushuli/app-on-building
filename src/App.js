@@ -1,22 +1,26 @@
-import logo from './logo.svg';
+import { COPYRIGHT, BEIAN, XUKEZHENG } from "./config";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="/building.gif" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          网站建设中，敬请期待。
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="App-footer">
+              Copyright © {COPYRIGHT}
+              <br />
+              <a className="App-link"
+                href="http://beian.miit.gov.cn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {BEIAN}
+              </a>
+               {XUKEZHENG}
+            </div>
       </header>
     </div>
   );
