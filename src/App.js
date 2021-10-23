@@ -1,4 +1,4 @@
-import { COPYRIGHT, BEIAN, XUKEZHENG } from "./config";
+import { COPYRIGHT, BEIAN, TITLE, XUKEZHENG } from "./config";
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src="/building.gif" className="App-logo" alt="logo" />
         <p>
-          网站建设中，敬请期待。
+          {TITLE}
         </p>
         <div className="App-footer">
               Copyright © {COPYRIGHT}

@@ -42,5 +42,5 @@ export const XUKEZHENG = env("XUKEZHENG", "经营许可证编号:京ICP证080192
 /**
  * app
  */
-export const TITLE = env("TITLE", "审讯指挥地图");
+export const TITLE = env("TITLE", "xxxx网站");
 export const SCOPE = env("SCOPE", "lecha_uat");
